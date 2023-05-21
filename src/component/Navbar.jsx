@@ -9,22 +9,29 @@ const Navbar = () => {
             <div>
                 <img src={logo} alt="Logo" style={{ width: '70px' }} />
             </div>
-            <div>
             {/* Menu */}
-                <ul>
+           <div>
+                <ul className="hidden md:flex">
                     <li>Home</li>
                     <li>About</li>
                     <li>Skills</li>
                     <li>Work</li>
                     <li>Contact</li>
                 </ul>
-            </div>
+           </div>
             {/* Hamburger Menu */}
-            <div>
+            <div className="md:hidden">
                 <FaBars/>
             </div>
             {/* Mobile Menu */}
-            <div>
+            <ul className="absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center">
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Work</li>
+                <li>Contact</li>
+            </ul>
+            <div className="hidden">
                 <FaTimes/>
             </div>
         </div>
