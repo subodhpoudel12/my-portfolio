@@ -1,7 +1,8 @@
+import Navbar from "./component/Navbar";
 function App() {
   return (
     <div>
-      <h1 className='start-new'>Hello world!</h1>
+      <Navbar/>
     </div>
   );
 }
