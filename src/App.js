@@ -1,7 +1,7 @@
 import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import About from "./component/About";
-import Skills from "./component/Skills";
+import Skills from "./component/skills";
 function App() {
   return (
     <div>
