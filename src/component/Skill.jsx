@@ -11,7 +11,7 @@ import bootstrapIcon from "../assets/bootstrap.png";
 import tailwindIcon from "../assets/tailwind.png";
 import postmanIcon from "../assets/postman.png";
 
-const Skills = () => {
+const Skill = () => {
   const skillsData = [
     { name: "HTML", icon: htmlIcon },
     { name: "CSS", icon: cssIcon },
@@ -50,4 +50,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Skill;

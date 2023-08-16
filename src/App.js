@@ -1,7 +1,7 @@
 import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import About from "./component/About";
-import Skills from "./component/Skills";
+import Skill from "./component/Skill";
 import Work from "./component/Work";
 import Contact from "./component/Contact";
 
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <About/>
-      <Skills/>
+      <Skill/>
       <Work/>
       <Contact/>
     </div>
